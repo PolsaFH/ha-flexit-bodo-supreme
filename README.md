@@ -1,5 +1,7 @@
 # Flexit Bodø Supreme — Home Assistant Integration
 
+<img src="icon.png" width="96" align="right" alt="Flexit Bodø Supreme integration icon">
+
 [![hacs_badge](https://img.shields.io/badge/HACS-Custom-orange.svg)](https://github.com/hacs/integration)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
