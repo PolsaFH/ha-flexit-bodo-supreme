@@ -1,0 +1,25 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connect to Flexit Bodø Supreme",
+        "description": "The easiest way to find the IP address is to set a static/reserved IP for the fan in your router. The device ID (16 characters) and PIN (4 digits) are the same ones you use in the Flexit Fans app.",
+        "data": {
+          "name": "Name",
+          "host": "IP address",
+          "port": "Port",
+          "device_id": "Device ID (16 characters)",
+          "pin": "PIN (4 digits)"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Could not reach the fan. Check the IP address and that the fan is on the same network.",
+      "invalid_pin": "PIN must be exactly 4 digits.",
+      "unknown": "Unexpected error."
+    },
+    "abort": {
+      "already_configured": "This fan is already configured."
+    }
+  }
+}

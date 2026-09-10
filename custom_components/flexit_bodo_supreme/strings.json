@@ -1,0 +1,25 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Koble til Flexit Bodø Supreme",
+        "description": "IP-adressen finner du enklest ved å sette en fast/statisk IP for viften i ruteren din. Enhets-ID (16 tegn) og PIN (4 siffer) er de samme du bruker i Flexit Fans-appen.",
+        "data": {
+          "name": "Navn",
+          "host": "IP-adresse",
+          "port": "Port",
+          "device_id": "Enhets-ID (16 tegn)",
+          "pin": "PIN (4 siffer)"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Fikk ikke kontakt med viften. Sjekk IP-adressen og at viften er på samme nettverk.",
+      "invalid_pin": "PIN må være nøyaktig 4 siffer.",
+      "unknown": "Uventet feil oppstod."
+    },
+    "abort": {
+      "already_configured": "Denne viften er allerede lagt til."
+    }
+  }
+}
